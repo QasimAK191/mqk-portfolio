@@ -1,0 +1,74 @@
+.home-main-photo {
+    background:  no-repeat rgba(0, 0, 0, 0.25)url(https://i.imgur.com/YbEtk6X.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    max-width: 100%;
+    background-position: center;
+    height: 300px;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+ @media (min-width: 768px) {
+    .home-main-photo {
+        height: 800px;
+    } 
+}
+.home-container {
+    padding-top: 0%;
+    align-content: baseline;
+}
+@media (min-width:768px){
+    .home-container {
+        padding-top: 0%;
+        position: center;
+        height: 50%;
+        flex-shrink: 0;
+    }
+}
+.home-name-text {
+    font-size: 3vw;
+}
+@media (min-width: 768px){
+    .home-name-text {
+        font-size: 5vw;
+    }}
+.home-text-container {
+    display: grid;
+    justify-items: start;
+    color: darkslategrey;
+    padding: 8em;
+}
+@media (min-width: 768px){
+    .home-text-container {
+        
+    }
+}
+@media (min-width: 768px){
+    .home-subtext {
+        font-size: 2vw;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&display=swap');
+.typewriter-container {
+    display: flex;
+    gap: 3px;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    color: darkslateblue;
+}
+.react-typewriter-text {
+    font-size: 3vw;
+}
+@media (min-width: 768px){
+    .react-typewriter-text {
+        font-size:4vw;
+    }
+}
+.home-button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
